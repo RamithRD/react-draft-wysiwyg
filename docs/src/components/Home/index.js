@@ -64,8 +64,7 @@ export default class Home extends Component {
           </div>
           <div className="quote">
             <span className="quote-text">
-              Jyoti’s WYSIWYG editor has a lot of cool features. A great place
-              for inspiration and learning from the code.
+              Modified by Ramith
             </span>
             <span className="quote-author">
               Nik Graf (
