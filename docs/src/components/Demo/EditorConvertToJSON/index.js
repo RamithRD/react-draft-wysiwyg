@@ -26,7 +26,7 @@ class EditorConvertToJSON extends Component {
     const { contentState } = this.state;
     return (
       <div className="demo-section">
-        <h3>2. Uncontrolled editor component with conversion of content from and to JSON (RawDraftContentState)</h3>
+        <h3>Uncontrolled editor component with conversion of content from and to JSON (RawDraftContentState)</h3>
         <div className="demo-section-wrapper">
           <div className="demo-editor-wrapper">
             <Editor
