@@ -22,6 +22,22 @@ class EditorConvertToJSON extends Component {
     });
   };
 
+
+  componentDidMount() {
+    // expose a method to the window object
+    window.getEditorContent = this.getEditorContent;
+  }
+
+  componentWillUnmount() {
+    // clean up
+    delete window.getEditorContent;
+  }
+
+  getEditorContent = () => {
+    // return the current content state as a string
+    return JSON.stringify(this.state.contentState);
+  };
+
   render() {
     const { contentState } = this.state;
     return (
